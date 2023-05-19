@@ -26,7 +26,7 @@
 %----------------------------------------------------------------------------------------
 
 % article class because we want to fully customize the page and not use a cv template
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 %----------------------------------------------------------------------------------------
 %	FONT
@@ -44,9 +44,9 @@
 % ]
 % {Fontin.otf}
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES
-%----------------------------------------------------------------------------------------
+%------------
+%  PACKAGES
+%------------
 \usepackage{url}
 \usepackage{parskip} 	
 
@@ -116,37 +116,69 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Aaron Jeskie} \\[7.5pt]
+\href{https://github.com/ajesk}{\raisebox{-0.05\height}\faGithub\ ajesk} \ $|$ \ 
+\href{https://linkedin.com/in/aaronjeskie}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \ 
+\href{https://aaronjeskie.com}{\raisebox{-0.05\height}\faGlobe \ aaronjeskie.com} \ $|$ \ 
+\href{mailto:aaronjeskie@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ aaronjeskie@gmail.com} \ $|$ \ 
+\href{tel:+17329476664}{\raisebox{-0.05\height}\faMobile \ (732) 947-6664} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
 %----------------------------------------------------------------------------------------
 
-%Interests/ Keywords/ Summary
-\section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-
 %Experience
 \section{Work Experience}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Designation} & \hfill Jan 2021 - present \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+\textbf{iCIMS - Software Engineer III} & \hfill Jan 2018 - present \\[3.75pt]
+\multicolumn{2}{@{}X@{}} {
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[*] iCIMS provides a best-in-class recruitment software offering that assists in reducing the “time to hire” of customers
+        \item[*] Planned, architected, and developed multiple successful products that went on to be cornerstones of the company's offering. Worked in all layers of application development as a full-stack engineer.
+        \item[*] Offer Management - the most successful product offering outside of the core iCIMS suite with more than 3 million offers extended across all customers.
+        \item[*] Clause management - an offer management sub-feature that customers most requested.
+        \item[*] Improved release and build speed by refining processes and identifying shortcomings while migrating to a fully distributed environment.
+        \item[*] Automated local environment setup, saving countless hours and improved uniformity/reliability.
+        \item[*] Re-designed a legacy testing framework, enabling the ability to test a monolith project in a distributed manner.
+        \item[*] Lead a ”community of practice” to promote the better practice of code quality and development conventions.
+    \end{itemize}
+    \end{minipage}
+    }
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Designation} & \hfill Mar 2019 - Jan 2021 \\[3.75pt]
+\textbf{Provenir - Software Developer} & \hfill Mar 2017 - Dec 2017 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item[--] long long line of blah blah that will wrap when the table fills the column width
-        \item[--] again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+        \item[*] Developed and managed a data pipeline constructed using Apache Spark, Apache Kafka, Kinesis, PostgresSQL, and Redshift which provided useful data for consumption by other internal products.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{IPKeys - Junior Software Developer} & \hfill Jun 2015 - Feb 2017 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[*] Worked on the EISS automated demand response project, which provided the means for companies to automatically turn off machinery in times of high energy demand.
+        \item[*] Architected, designed, and developed an ARM-based embedded application suite.
+        \item[*] Rebuilt applications that significantly improved the performance and stability of data analytic implementations.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{VergeUpon - Software Developer Intern} & \hfill Jan 2014 - Nov 2014 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[*] Wrote code and researched solutions for the implementation of a social media project. Aided in a restructuring of the application to optimize the API for rigorous use.
     \end{itemize}
     \end{minipage}
 }
@@ -156,8 +188,8 @@ This CV is automatically generated and deployed using the \href{https://github.c
 \section{Projects}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+    \textbf{Fantasy Checkdown Chart} & \hfill \href{https://ajesk.github.io/fantasy-checkdown/}{Link} \\[3.75pt]
+    \multicolumn{2}{@{}X@{}}{A simple tool built in React + Redux to keep track of tiers and picks during a fantasy sports draft.}  \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -165,34 +197,28 @@ This CV is automatically generated and deployed using the \href{https://github.c
 %----------------------------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+2030 - present & Bachelor of Science at \textbf{DeVry University} \hfill \normalsize \\
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
 \end{tabularx}
-
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
-\section{Skills}
+\section{Technologies, Accolades, and Other Interests}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+Advanced &  \normalsize{Java, SQL, Bash, ReactJS}\\
+Proficient  &  \normalsize{GoLang, Scala, Docker, NodeJS, JS}\\
+Learning & \normalsize{Haskell, Elixir}\\
+\newline
+\end{tabularx}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Awards &  \normalsize{iCIMS 2018 Not-to-do Award; Vista 2021 Hackathon - Best Innovation}\\ 
+\end{tabularx}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Hobbies &  \normalsize{3D printing/modeling; home improvement; repair work}\\ 
 \end{tabularx}
 
 \vfill
-\center{\footnotesize Last updated: \today}
+{\footnotesize Last updated: \today}
 
 \end{document}
